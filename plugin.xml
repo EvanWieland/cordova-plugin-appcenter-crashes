@@ -10,8 +10,8 @@
     </description>
     <license>MIT</license>
     <keywords>microsoft, azure, app center, crashes</keywords>
-    <repo>https://github.com/EvanWieland/appcenter-sdk-cordova</repo>
-    <issue>https://github.com/EvanWieland/appcenter-sdk-cordova/issues</issue>
+    <repo>https://github.com/EvanWieland/cordova-plugin-appcenter-crashes</repo>
+    <issue>https://github.com/EvanWieland/cordova-plugin-appcenter-crashes/issues</issue>
 
     <!-- Required gradle functionality support -->
     <engine name="cordova-android" version=">=4.1.0"/>
