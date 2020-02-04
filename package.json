@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-appcenter-crashes",
+  "version": "0.5.1",
+  "description": "Provides Microsoft Azure App Center Crashes client for Cordova",
+  "license": "MIT",
+  "author": "Microsoft Corporation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanWieland/appcenter-sdk-cordova.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EvanWieland/appcenter-sdk-cordova/issues"
+  },
+  "homepage": "https://github.com/EvanWieland/appcenter-sdk-cordova/blob/master/README.md",
+  "cordova": {
+    "id": "appcenter-crashes",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "microsoft",
+    "azure",
+    "app center",
+    "crashes",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "types": "./types/index.d.ts"
+}
