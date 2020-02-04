@@ -70,10 +70,10 @@
         <header-file src="src/ios/CrashesUtils.h"/>
         <source-file src="src/ios/CrashesUtils.m"/>
 
-        <framework src="AppCenter" type="podspec" spec="~> 2.5.0" />
+<!--         <framework src="AppCenter" type="podspec" spec="~> 2.5.0" />
             
         <framework src="AppCenter/Analytics" type="podspec" spec="~> 2.5.0" />
-
+ -->
 <!--         <podspec>
             <config>
                 <source url="https://github.com/CocoaPods/Specs.git"/>
