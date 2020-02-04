@@ -75,14 +75,14 @@
         <pods-config ios-min-version="9.0" use-frameworks="true"/>
         
         <pod name="AppCenter" version="2.5.3" />
-        <pod name="AppCenter/Analytics" version="2.5.3" />
+        <pod name="AppCenter/Crashes" version="2.5.3" />
 
 <!--         <podspec>
             <config>
                 <source url="https://github.com/CocoaPods/Specs.git"/>
             </config>
             <pods use-frameworks="true">
-                <pod name="AppCenter/Analytics" spec="~> 2.5.0"/>
+                <pod name="AppCenter/Crashes" spec="~> 2.5.0"/>
             </pods>
         </podspec> -->
             
