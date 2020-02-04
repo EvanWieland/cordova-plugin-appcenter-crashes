@@ -22,9 +22,6 @@
     <!--    <dependency id="cordova-plugin-appcenter-shared" version="0.5.1"/>-->
     <dependency id="cordova-plugin-appcenter-shared" url="https://github.com/EvanWieland/appcenter-sdk-cordova"
                 subdir="cordova-plugin-appcenter-shared/"/>
-        
-    <dependency id="cordova-plugin-cocoapod-support"/>
-
 
     <js-module name="Crashes" src="www/Crashes.js">
         <clobbers target="AppCenter.Crashes"/>
@@ -73,6 +70,10 @@
         <header-file src="src/ios/CrashesUtils.h"/>
         <source-file src="src/ios/CrashesUtils.m"/>
 
+        <framework src="AppCenter" type="podspec" spec="~> 2.5.0" />
+            
+        <framework src="AppCenter/Analytics" type="podspec" spec="~> 2.5.0" />
+
 <!--         <podspec>
             <config>
                 <source url="https://github.com/CocoaPods/Specs.git"/>
@@ -80,10 +81,7 @@
             <pods use-frameworks="true">
                 <pod name="AppCenter/Analytics" spec="~> 2.5.0"/>
             </pods>
-        </podspec>
-        <framework src="AppCenter" type="podspec" spec="~> 2.5.0" /> -->
+        </podspec> -->
             
-        <pod name="AppCenter" version="2.5.0"/>
-        <pod name="AppCenter/Analytics" version="2.5.0"/>
     </platform>
 </plugin>
