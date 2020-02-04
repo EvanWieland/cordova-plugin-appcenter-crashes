@@ -61,27 +61,27 @@
             </feature>
         </config-file>
 
-        <header-file src="src/ios/AppCenterCrashesPlugin.h"/>
+<!--         <header-file src="src/ios/AppCenterCrashesPlugin.h"/>
         <source-file src="src/ios/AppCenterCrashesPlugin.m"/>
 
         <header-file src="src/ios/CordovaCrashesDelegate.h"/>
         <source-file src="src/ios/CordovaCrashesDelegate.m"/>
 
         <header-file src="src/ios/CrashesUtils.h"/>
-        <source-file src="src/ios/CrashesUtils.m"/>
+        <source-file src="src/ios/CrashesUtils.m"/> -->
 
 <!--         <framework src="AppCenter" type="podspec" spec="~> 2.5.0" />
             
         <framework src="AppCenter/Analytics" type="podspec" spec="~> 2.5.0" />
  -->
-<!--         <podspec>
+        <podspec>
             <config>
                 <source url="https://github.com/CocoaPods/Specs.git"/>
             </config>
             <pods use-frameworks="true">
                 <pod name="AppCenter/Analytics" spec="~> 2.5.0"/>
             </pods>
-        </podspec> -->
+        </podspec>
             
     </platform>
 </plugin>
