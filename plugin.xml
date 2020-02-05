@@ -20,8 +20,7 @@
     <engine name="cordova-ios" version=">=4.3.0"/>
 
     <!--    <dependency id="cordova-plugin-appcenter-shared" version="0.5.1"/>-->
-    <dependency id="cordova-plugin-appcenter-shared" url="https://github.com/EvanWieland/appcenter-sdk-cordova"
-                subdir="cordova-plugin-appcenter-shared/"/>
+    <dependency id="cordova-plugin-appcenter-shared" url="https://github.com/EvanWieland/cordova-plugin-appcenter-shared.git"/>
         
     <dependency id="cordova-plugin-cocoapod-support"/>
 
