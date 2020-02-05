@@ -2,6 +2,9 @@
   "name": "cordova-plugin-appcenter-crashes",
   "version": "0.5.1",
   "description": "Provides Microsoft Azure App Center Crashes client for Cordova",
+  "scripts": {
+    "push": "git add .; git commit -m \"...\"; git push origin master"
+  },
   "license": "MIT",
   "author": "Microsoft Corporation",
   "repository": {
