@@ -68,7 +68,7 @@
                 <source url="https://github.com/CocoaPods/Specs.git"/>
             </config>
             <pods use-frameworks="true">
-                <pod name="AppCenter/Crashes" spec="~> 2.5.3" />
+                <pod name="AppCenter" spec="~> 2.5.3" />
             </pods>
         </podspec>
 
@@ -82,6 +82,5 @@
 
         <header-file src="src/ios/CrashesUtils.h"/>
         <source-file src="src/ios/CrashesUtils.m"/>
-
     </platform>
 </plugin>
