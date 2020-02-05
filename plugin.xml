@@ -20,8 +20,9 @@
     <engine name="cordova-ios" version=">=4.3.0"/>
 
     <!--    <dependency id="cordova-plugin-appcenter-shared" version="0.5.1"/>-->
-    <dependency id="cordova-plugin-appcenter-shared" url="https://github.com/EvanWieland/cordova-plugin-appcenter-shared.git"/>
-        
+    <dependency id="cordova-plugin-appcenter-shared"
+                url="https://github.com/EvanWieland/cordova-plugin-appcenter-shared.git"/>
+
     <dependency id="cordova-plugin-cocoapod-support"/>
 
     <js-module name="Crashes" src="www/Crashes.js">
@@ -62,6 +63,17 @@
             </feature>
         </config-file>
 
+        <podspec>
+            <config>
+                <source url="https://github.com/CocoaPods/Specs.git"/>
+            </config>
+            <pods use-frameworks="true">
+                <pod name="AppCenter/Crashes" spec="~> 2.5.3" />
+            </pods>
+        </podspec>
+
+        <framework src="AppCenter" type="podspec" spec="~> 2.5.3" />
+
         <header-file src="src/ios/AppCenterCrashesPlugin.h"/>
         <source-file src="src/ios/AppCenterCrashesPlugin.m"/>
 
@@ -70,22 +82,6 @@
 
         <header-file src="src/ios/CrashesUtils.h"/>
         <source-file src="src/ios/CrashesUtils.m"/>
-            
-        <pods-config ios-min-version="9.0" use-frameworks="true"/>
-        
-        <pod name="AppCenter" version="2.5.3" />
-        <pod name="AppCenter/Crashes" version="2.5.3" />
 
-<!--         <podspec>
-            <config>
-                <source url="https://github.com/CocoaPods/Specs.git"/>
-            </config>
-            <pods use-frameworks="true">
-                <pod name="AppCenter/Crashes" spec="~> 2.5.0"/>
-            </pods>
-        </podspec> -->
-            
-<!--         <framework src="AppCenter" type="podspec" spec="~> 2.5.0" /> -->
-            
     </platform>
 </plugin>
